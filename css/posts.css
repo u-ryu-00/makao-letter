@@ -8,12 +8,11 @@
 .cards {
     display:grid;
     grid-template-columns: 85vw; 
+    border-right: 0.01vw solid black;
 }
 
 .card{
-    border-top: 0.01vw solid black;
     border-left: 0.01vw solid black;
-    border-right: 0.01vw solid black;
     border-bottom: 0.01vw solid black;
 }
 
@@ -38,16 +37,16 @@ time{
 }
 
 .more button{
-    font-size : 5vw;
+    font-size : 30px;
     background-color: #4593FC;
-    border: 0.1vw solid black;
+    border: 1.50px solid black;
     color: white;
-    border-radius: 10vw;
-    padding:2vw 6vw 2vw 6vw;
+    border-radius: 33px;
+    padding:12px 35px 12px 35px;
 }
 
 .more{
-    padding: 7vw;
+    padding:45px;
 }
 
 @media (min-width:600px){
@@ -91,6 +90,7 @@ time{
 
     time{
         padding:1em 1em 1em 1em;
+    }
 
     .reaction{
         padding: 1em 1em 1em 7em;
@@ -104,6 +104,7 @@ time{
         grid-template-rows: repeat(3, 1fr);
         max-width: 1024px;
     }
+    .reaction{
+        padding: 1em 1em 1em 5em;
+    }
 }
-
-
